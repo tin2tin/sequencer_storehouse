@@ -93,12 +93,12 @@ def append_sequence_menu(self, context):
 
 def register():
     bpy.utils.register_class(SEQUENCER_OT_copy_strips)
-    bpy.types.SEQUENCER_HT_header.prepend(append_sequence_menu)
+    bpy.types.SEQUENCER_MT_editor_menus.prepend(append_sequence_menu)
     bpy.types.SEQUENCER_MT_sequence.append(draw_sequence_menu)
 
 def unregister():
     bpy.utils.unregister_class(SEQUENCER_OT_copy_strips)
-    bpy.types.SEQUENCER_HT_header.remove(append_sequence_menu)
+    bpy.types.SEQUENCER_MT_editor_menus.remove(append_sequence_menu)
     bpy.types.SEQUENCER_MT_sequence.remove(draw_sequence_menu)
 
 if __name__ == "__main__":
