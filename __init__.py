@@ -1,5 +1,5 @@
 bl_info = {
-    "name": "Storehouse Files",
+    "name": "Sequencer Storehouse",
     "author": "tintwotin",
     "version": (1, 0),
     "blender": (3, 6, 0),
