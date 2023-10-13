@@ -1,4 +1,4 @@
-# Storehouse Files
+# Sequencer Storehouse
 Blender add-on for copying all VSE-used files to a specific folder and updating the strip-paths accordingly.
 
 ## Location
