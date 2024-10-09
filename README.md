@@ -1,8 +1,20 @@
-# Sequencer Storehouse
-Blender add-on for copying all VSE-used files(except image-sequences) to a specific folder and updating the strip paths accordingly.
+<h1 align="center">Sequencer Storehouse</h1>
+
+<p align="center">A Blender add-on for copying all VSE-used files(except image sequences) to a specific folder and updating the strip paths accordingly.</p>
+
+<p align="center">
+    <a href="https://discord.gg/HMYpnPzbTm"><img src="https://img.shields.io/badge/Chat%20with%20us%20on%20Discord--blue?style=social&logo=discord" alt="Chat with us" title="Chat with us"></a>
+    <a href="https://twitter.com/tintwotin"><img src="https://img.shields.io/twitter/follow/tintwotin" alt="Follow us on X" title="Follow us on X"></a>
+<p>
+
+<hr>
+
+![storehouse](https://github.com/user-attachments/assets/4922b106-8752-4be3-a3c7-5ee82c57cc3c)
+
+## Download
+https://github.com/tin2tin/sequencer_storehouse/archive/refs/heads/main.zip
+
 
 ## Location
-Sequencer > Sequence Menu > Storehouse Files
 
-![ideogram (24)](https://github.com/tin2tin/sequencer_storehouse/assets/1322593/ad8a0be8-c166-4eba-852e-bdec98d9d397)
-(genAI can't spell...)
+Sequencer > Sequence Menu > Storehouse Files
