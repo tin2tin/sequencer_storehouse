@@ -18,3 +18,7 @@ https://github.com/tin2tin/sequencer_storehouse/archive/refs/heads/main.zip
 ## Location
 
 Sequencer > Sequence Menu > Storehouse Files
+
+## Instructions
+
+Make a full copy of the scene with the edit before executing the Sequencer Storehouse operator to keep a backup of the original edit if something goes wrong.
