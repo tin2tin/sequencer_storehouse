@@ -100,21 +100,21 @@ def draw_sequence_menu(self, context):
     layout.operator("sequencer.copy_strips")
 
 def append_sequence_menu(self, context):
-    if "SEQUENCER_MT_sequence" not in bpy.types.SEQUENCER_MT_editor_menus.__dict__:
+    if "SEQUENCER_MT_strip" not in bpy.types.SEQUENCER_MT_editor_menus.__dict__:
         bpy.types.SEQUENCER_MT_editor_menus.prepend(append_sequence_menu)
-    layout.menu("SEQUENCER_MT_sequence")
+    layout.menu("SEQUENCER_MT_strip")
 
 def register():
     bpy.utils.register_class(SEQUENCER_OT_copy_strips)
     # Check if the menu already exists before appending
-    if "SEQUENCER_MT_sequence" not in bpy.types.SEQUENCER_MT_editor_menus.__dict__:
-        bpy.types.SEQUENCER_MT_sequence.append(draw_sequence_menu)
+    if "SEQUENCER_MT_strip" not in bpy.types.SEQUENCER_MT_editor_menus.__dict__:
+        bpy.types.SEQUENCER_MT_strip.append(draw_sequence_menu)
 
 def unregister():
     bpy.utils.unregister_class(SEQUENCER_OT_copy_strips)
     # Remove the operator from the menu only if it exists
-    if "SEQUENCER_MT_sequence" in bpy.types.SEQUENCER_MT_editor_menus.__dict__:
-        bpy.types.SEQUENCER_MT_sequence.remove(draw_sequence_menu)
+    if "SEQUENCER_MT_strip" in bpy.types.SEQUENCER_MT_editor_menus.__dict__:
+        bpy.types.SEQUENCER_MT_strip.remove(draw_sequence_menu)
 
 if __name__ == "__main__":
     register()
